@@ -10,3 +10,19 @@ h1 {
   color: #ff5500;
   font-family: 'Shizuru', cursive;
 }
+
+form {
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+}
+
+input {
+  border-radius: 25px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
