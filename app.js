@@ -22,3 +22,12 @@ function getGiphy(evt) {
     return (error, 'something went wrong')
   })
 }
+
+function render(gifData) {
+  function getRandomIdx(min, max) {
+    return Math.floor(Math.random() * (max - min) + min)
+  }
+  randIdx = getRandomIdx(0, 20)
+
+  $('div').html(`<img src="${gifData.data[randIdx].images.original.url}">`)
+}
