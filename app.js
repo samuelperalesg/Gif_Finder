@@ -38,13 +38,29 @@ function getGiphy(evt) {
 }
 
 function render(gifData) {
-  function getRandomIdx(min, max) {
-    return Math.floor(Math.random() * (max - min) + min)
-  }
-  randIdx = getRandomIdx(0, 20)
+  // function getRandomIdx(min, max) {
+  //   return Math.floor(Math.random() * (max - min) + min)
+  // }
+  // randIdx = getRandomIdx(0, 20)
 
-  $('#imageBox').html(`<img src="${gifData.data[randIdx].images.original.url}">`)
+
+  // $(".row1").each(gifData, function(idx, element){
+
+  // })
+
+  for (x = 0; x < 9; x++) {
+    let idx = x
+    $('.gif').each(function(idx){
+      $(this).attr("src", gifData.data[idx].images.original.url)})
+    }
 }
 
+//
 
+// change data access by counting up 1
+// get data from gif
+// change image target by adding 1
+// loop again
+
+//need to escape loop and process then go back
 
