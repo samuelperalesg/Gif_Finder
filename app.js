@@ -4,14 +4,28 @@ const URL = `https://api.giphy.com/v1/gifs/search?api_key=nINz5xXnq2CwNwZIhFlSaB
 // element references
 const $form = $('form');
 const $input = $('input[type="text"]');
+let $category = $('button')
 
 $form.on('submit', getGiphy);
 
+$category.click(function(){
+  let categoryInput = this.innerText
+  $.ajax(URL + categoryInput).then(function(data) {
+    render(data)})
+  
+})
+
+
+
 // functions
+
+
 function getGiphy(evt) {
   evt.preventDefault();
 
   const userInput = $input.val()
+
+
 
   if(!userInput) return
 
@@ -29,5 +43,8 @@ function render(gifData) {
   }
   randIdx = getRandomIdx(0, 20)
 
-  $('div').html(`<img src="${gifData.data[randIdx].images.original.url}">`)
+  $('#imageBox').html(`<img src="${gifData.data[randIdx].images.original.url}">`)
 }
+
+
+
