@@ -9,15 +9,18 @@ Welcome to **GiFinder**! My first project, GiFinder, is a fun and interactive we
 - **Google Fonts**: To beautify the text and enhance user experience.
 - **Giphy API**: The core of GiFinder, providing a vast library of GIFs.
 
+## Getting Started
+Dive into the world of GIFs with GiFinder: [Start Your Gif Journey]("")
+
+## Trello Board
+Follow the project's progress and upcoming updates on our [Trello Board](https://trello.com/invite/b/VE9WI5Kz/ATTI6ad8c4a631f2d09bc04676b436365f14D022C6A5/gifinder).
+
 ## Screenshots
 ![Wireframe](https://i.imgur.com/OCfNcQe.png)
 *Initial Wireframe*
 
-![App Picture](https://i.imgur.com/RW9uKgh.png)
+![App Picture](https://imgur.com/4LylKwb.png)
 *Final Look of the App*
-
-## Getting Started
-Dive into the world of GIFs with GiFinder: [Start Your Gif Journey]("")
 
 Here's how you can start:
 1. Visit the deployed app using the above link.
@@ -27,9 +30,6 @@ Here's how you can start:
 ## Future Enhancements
 - Adding a feature to copy GIFs directly, making it easier for users to share their favorite finds.
 - Creating a gallery mode for displaying multiple GIFs at once, enhancing the visual experience.
-
-## Trello Board
-Follow the project's progress and upcoming updates on our [Trello Board](https://trello.com/invite/b/VE9WI5Kz/ATTI6ad8c4a631f2d09bc04676b436365f14D022C6A5/gifinder).
 
 ---
 
