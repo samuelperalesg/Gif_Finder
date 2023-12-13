@@ -1,5 +1,7 @@
 # GiFinder
 
+### Trello Board: https://trello.com/invite/b/VE9WI5Kz/ATTI6ad8c4a631f2d09bc04676b436365f14D022C6A5/gifinder
+
 A web application where users are able to look up their favorite Gif using the Giphy API
 
 ## Technologies Used
