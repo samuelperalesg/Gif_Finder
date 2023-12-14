@@ -10,7 +10,7 @@ Welcome to **GiFinder**! My first project, GiFinder, is a fun and interactive we
 - **Giphy API**: The core of GiFinder, providing a vast library of GIFs.
 
 ## Getting Started
-Dive into the world of GIFs with GiFinder: [Start Your Gif Journey]("https://samuelperalesg.github.io/Gif_Finder/")
+Dive into the world of GIFs with GiFinder: [Start Your Gif Journey](https://samuelperalesg.github.io/Gif_Finder/)
 
 ## Trello Board
 Follow the project's progress and upcoming updates on our [Trello Board](https://trello.com/invite/b/VE9WI5Kz/ATTI6ad8c4a631f2d09bc04676b436365f14D022C6A5/gifinder).
